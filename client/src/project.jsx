@@ -6,7 +6,7 @@ function Projects() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/api/projects")
+      .get("https://portfolio-ijy8.onrender.com/api/projects")
       .then((res) => {
         setProjects(res.data);
       })
