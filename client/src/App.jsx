@@ -38,7 +38,7 @@ const skillGroups = [
   },
   {
     title: 'Database',
-    items: ['MySQL','MongoDB'],
+    items: ['MySQL', 'MongoDB'],
   },
   {
     title: 'Operating Systems',
@@ -73,6 +73,43 @@ const education = [
 
 const projects = [
   {
+    name: 'UAT Sign-Off Assistant',
+    summary:
+      'An AI-powered UAT platform that streamlines user acceptance testing, sign-off workflows, test case management, and project status tracking.',
+    details:
+      'Built to help project teams manage UAT efficiently through role-based dashboards, test execution tracking, defect management, sign-off summaries, and AI-assisted insights.',
+    stack: [
+      'React',
+      'TypeScript',
+      'Tailwind CSS',
+      'FastAPI',
+      'Python',
+      'PostgreSQL',
+      'Prisma',
+      'Google Gemini API',
+      'Docker'
+    ],
+    link: 'https://github.com/santhoshandhavarapu25-ops',
+  },
+  {
+    name: 'Smart Digital Notice Board',
+    summary:
+      'A centralized digital platform for managing and delivering college notices, announcements, and important updates to students.',
+    details:
+      'Built to simplify communication between college departments and students with categorized notices, attachments, search and filtering, subscriptions, notifications, notice expiry, and role-based posting permissions.',
+    stack: [
+      'React',
+      'TypeScript',
+      'Tailwind CSS',
+      'Node.js',
+      'Express.js',
+      'Supabase',
+      'PostgreSQL',
+      'Firebase'
+    ],
+    link: 'https://github.com/santhoshandhavarapu25-ops',
+  },
+  {
     name: 'AI HUB',
     summary:
       'A single platform for AI tools that brings text generation, image creation, and coding assistance together in one simple interface.',
@@ -84,9 +121,10 @@ const projects = [
 ]
 
 const certifications = [
+  'Thiranex Full Stack Development - Thiranex - 2024',
+  'AI Database Certified Foundations Associate - Oracle - July 2026',
   'Programming in Java Certification - NPTEL - Jul 2025 to Oct 2025',
   'Python Certificate - HackerRank - 22 Mar 2026',
-  'Java Certificate - HackerRank - 25 Mar 2026',
   'FullStack Development 101 - Simplilearn - 17 Sep 2024',
 ]
 
