@@ -243,7 +243,7 @@ function App() {
       <section className="grid-section" id="projects">
         <div className="section-heading">
           <p>Projects</p>
-          <h2>One representative project so far.</h2>
+          <h2>Explore some of the projects I've built using modern technologies and AI.</h2>
         </div>
         <div className="project-grid">
           {projects.map((project) => (
